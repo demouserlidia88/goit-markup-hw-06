@@ -41,9 +41,6 @@ body{
     border-color: transparent;
     border: 0px;
    }
-.main-section{
-
-}
 h1,
 h2,
 h3,
@@ -578,7 +575,7 @@ button:hover, button:focus {
 
 .section, .paragraf{
     width: 1200px;
-	text-align: center;
+	text-align: left;
 	font-weight: 500;
 	line-height: 26px;
 	letter-spacing: 0.48px;
