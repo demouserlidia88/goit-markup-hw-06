@@ -90,9 +90,12 @@ a {
 .logo-studio a, span{
     color: #000000;
 }
-.logowebstudio span:hover, .logo-studio span:hover,
-.logowebstudio span:focus, .logo-studio span:focus {
+.logowebstudio span:hover, 
+.logo-studio span:hover,
+.logowebstudio span:focus, 
+.logo-studio span:focus {
     color: var(--heading-color);
+	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .global-header, .main-logo {
     width: 145px;
@@ -852,15 +855,20 @@ button:hover, button:focus {
     text-decoration: none;
     width: 145px;
     height: 31px;
+	margin-right: 10px;
 }
 .footer-logo-studio{
     color: #FFFFFF;
 }
-.footer-logo-web span:hover, .footer-logo-studio span:hover,
-.footer-logo-web span:focus, .footer-logo-studio span:focus {
-    color: var(--heading-color);
+
+.footer-logo-web a span:hover, 
+.footer-logo-studio a span:hover,
+.footer-logo-web a span:focus, 
+.footer-logo-studio a span:focus {
     fill: var(--heading-color);
 	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	filter: invert(52%) sepia(20%) saturate(7450%) hue-rotate(184deg) brightness(99%) contrast(93%);
+
 }
 .adress-footer a{
     font-family: var(--text-font-family);
@@ -946,7 +954,7 @@ button:hover, button:focus {
 	letter-spacing: 0.42px;
 	text-transform: uppercase;
 	margin-top: 0;
-	margin-bottom: 25px;
+	margin-bottom: 10px;
 }
 input {
 	width: 358px;
@@ -959,7 +967,6 @@ input {
 	color: rgba(255, 255, 255, 0.6);
 	line-height: 20px;
 	letter-spacing: 0.48px;
-
 }
 .global-footer-subscribe-form button {
 	width: 200px;
